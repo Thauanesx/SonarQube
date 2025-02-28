@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testesonarqube")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1670c697703b4a2f7da2e7211c5fd72a59c91d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1584376bbcc4f47607837994e7754433952c62a")]
 [assembly: System.Reflection.AssemblyProductAttribute("testesonarqube")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testesonarqube")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
