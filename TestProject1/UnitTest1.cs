@@ -9,7 +9,7 @@ namespace TestProject1
           [Fact]
         public void Test1() 
         {
-            var a = controller.Index();
+            var a = controller.Index(); 
             Assert.NotNull(a); 
         } 
     }
