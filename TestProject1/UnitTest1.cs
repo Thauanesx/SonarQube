@@ -7,7 +7,7 @@ namespace TestProject1
     {
         private readonly testController controller=new testController();
           [Fact]
-        public void Test1()
+        public void Test1() 
         {
             var a = controller.Index();
             Assert.NotNull(a); 
