@@ -8,5 +8,9 @@ namespace testesonarqube.Controllers
         {
             return Ok('a');
         }
+        public double  BugTeste()
+        {
+            return 5/2
+        }
     }
 }
