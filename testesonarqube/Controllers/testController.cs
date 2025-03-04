@@ -15,11 +15,11 @@ namespace testesonarqube.Controllers
         }
         public string Duplicacao()
         {
-          return "teste"
+          return "teste";
         }
         public string Duplicacao2()
         {
-          return "teste"
+          return "teste";
         }
     } 
 }
