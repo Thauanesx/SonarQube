@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Cryptography;
+using Microsoft.AspNetCore.Mvc;
 
 namespace testesonarqube.Controllers
 {
@@ -11,6 +12,12 @@ namespace testesonarqube.Controllers
         public double  BugTeste()
         {
             return 5/2; 
+        }
+        public void SecurityHotspot()
+        {
+            using (SHA1  hotspot=SHA1.Create()) { 
+                     
+            }
         }
     } 
 }
