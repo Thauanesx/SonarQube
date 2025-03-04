@@ -13,11 +13,5 @@ namespace testesonarqube.Controllers
         {
             return 5/2; 
         }
-        public void SecurityHotspot()
-        {
-            using (SHA1  hotspot=SHA1.Create()) { 
-                     
-            }
-        }
     } 
 }
