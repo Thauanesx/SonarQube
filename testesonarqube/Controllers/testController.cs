@@ -13,11 +13,13 @@ namespace testesonarqube.Controllers
         {
             return 5/2; 
         }
-        public void SecurityHotspot()
+        public string Duplicacao()
         {
-            using (SHA1  hotspot=SHA1.Create()) { 
-                     
-            }
+          return "teste"
+        }
+        public string Duplicacao2()
+        {
+          return "teste"
         }
     } 
 }
