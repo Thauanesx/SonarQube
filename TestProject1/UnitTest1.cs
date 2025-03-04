@@ -10,7 +10,7 @@ namespace TestProject1
         public void Test1()
         {
             var a = controller.Index();
-            Assert.NotNull(a);
+            Assert.NotNull(a); 
         }
     }
 }
