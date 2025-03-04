@@ -10,7 +10,7 @@ namespace testesonarqube.Controllers
         }
         public double  BugTeste()
         {
-            return 5/2;
+            return 5/2; 
         }
     } 
 }
