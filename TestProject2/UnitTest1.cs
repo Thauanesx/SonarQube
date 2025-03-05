@@ -10,9 +10,9 @@ namespace TestProject2
 
         public UnitTest1( )
         {
-            this.controller = new testController();
+            this.controller = new testController(); 
         }
-
+ 
         [Fact]
         public void Test1()
         {

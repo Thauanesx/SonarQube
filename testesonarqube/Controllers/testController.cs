@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace testesonarqube.Controllers
 {
     public class testController : Controller
-    {
-        public IActionResult Index()
+    { 
+        public IActionResult Index() 
         {
             return Ok('a');
         }
