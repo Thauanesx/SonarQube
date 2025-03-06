@@ -1,17 +1,17 @@
-﻿using System.Security.Cryptography;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 namespace testesonarqube.Controllers
 {
-    public class testController : Controller
-    { 
-        public IActionResult Index() 
+    public class testController2:ControllerBase
+    {
+        public IActionResult Index()
         {
             return Ok('a');
         }
-        public double  BugTeste()
+        public double BugTeste()
         {
-            return 5/2; 
+            return 5 / 2;
         }
         private const string CODE = "bounteous";
         private int callCount = 0;
@@ -34,7 +34,7 @@ namespace testesonarqube.Controllers
             var simpleDES = new DESCryptoServiceProvider(); // Noncompliant: DES works with 56-bit keys allow attacks via exhaustive search
 
             var RC2 = new RC2CryptoServiceProvider(); // Noncompliant: RC2 is vulnerable to a related-key attack
-        
+
         }
-    } 
+    }
 }
