@@ -3,9 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using testesonarqube.Controllers;
 
 namespace TestProject2
-{
-    public class UnitTest1
-    {
+{   
+    public class UnitTest1 
+    {    
         private readonly testController controller;
 
         public UnitTest1( )
